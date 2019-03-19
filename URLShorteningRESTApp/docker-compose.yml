@@ -1,0 +1,21 @@
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+     - "8899:9999"
+    networks:
+     - spring
+  redis:
+    image: redis:latest
+    command: [ "redis-server", "--protected-mode", "no" ]
+    ports:
+      - "6379:6379"
+    hostname: localhost
+    networks:
+      - spring
+      
+networks:
+   spring:
+    external: true
+    
