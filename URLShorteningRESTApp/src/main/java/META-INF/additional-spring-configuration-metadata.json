@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "local.domain",
+    "type": "java.lang.String",
+    "description": "A description for 'local.domain'"
+  },
+  {
+    "name": "spring.thymeleaf.template-loader-path",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.thymeleaf.template-loader-path'"
+  },
+  {
+    "name": "incremental.id",
+    "type": "java.lang.String",
+    "description": "A description for 'incremental.id'"
+  }
+]}
